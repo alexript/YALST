@@ -23,7 +23,7 @@ target("yalst")
     set_kind("binary")
     add_files("main.c")
     add_deps("libyalst")
-    set_configdir("$(buildir)/$(plat)/$(arch)/$(mode)/bootstrap")
+    set_configdir("$(builddir)/$(plat)/$(arch)/$(mode)/bootstrap")
     add_configfiles("bootstrap/*.st", {onlycopy = true})
 
 
