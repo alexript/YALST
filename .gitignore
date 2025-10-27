@@ -51,6 +51,11 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-/build
 systemImage
 *.swp
+
+.xmake/
+build/
+.DS_Store
+
+
